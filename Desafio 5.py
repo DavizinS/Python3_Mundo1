@@ -1,0 +1,5 @@
+n1 = int(input('Digite um número: '))
+print('\033[33m='*20)
+print('\033[1mDesafio 05 - Curso em Video')
+print('O número escolhido foi {}, seu antecessor é {} e seu sucessor é {}'.format(n1, (n1-1), (n1+1)))
+print('='*20)

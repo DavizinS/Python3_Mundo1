@@ -1,0 +1,6 @@
+nome = str(input('Informe um nome: ')).strip()
+print('O nome informado em maíusculo é {}'.format(nome.upper()))
+print('O nome informado em minúsculo é: {}'.format(nome.lower()))
+print('O nome informado possui {} letras'.format(len(nome) - nome.count(' ')))
+org = nome.split()
+print('O nome {} possui {} letras'.format(org[0], len(org[0])))
